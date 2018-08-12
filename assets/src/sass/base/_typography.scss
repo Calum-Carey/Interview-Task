@@ -1,0 +1,79 @@
+/*
+ * -
+ * PARTIALS/TYPOGRAPHY
+ * -
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+/* [1] */
+
+
+/* [2] */
+$font_primary: 'Open Sans', sans-serif;
+
+/* [3] */
+$font_light: 300;
+$font_regular: 400;
+$font_semi_bold: 600;
+$font_bold: 700;
+
+/* [4] */
+$base-font-size: 16px;
+$rhythm-unit: "rem";
+$default-rhythm-border-style: solid $white;
+
+/* [6] */
+html, button, input, select, textarea {
+  font-family: $font_primary;
+  font-weight: $font_regular;
+  -webkit-text-stroke: 1px transparent;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.35rem;
+
+}
+
+// Global
+
+h1 {
+  padding: 1rem 0;
+  font-weight: $font-bold;
+  font-size: 28px;
+}
+
+li {
+  margin: 0;
+  width: 20%;
+  display: inline-block;
+  padding: 1rem 0;
+}
+
+input {
+  width: 100%;
+}
+
+// .Classes
+
+.table-headers {
+  width: 100%
+}
+
+.arrange {
+  padding: 0 1em;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+}
+
+.search-container {
+  width: 50%;
+  padding: 1rem 0;
+}
+
+// #Ids
+
+#js-data {
+  width: 100%;
+}
